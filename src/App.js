@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+// import { Switch, Route } from "react-router-dom";
+import { FiTwitter } from "react-icons/fi";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<p className="pl">
+				Not suitable for mobile. Please 🥺🙏🏾 view on a large screen
+			</p>
+			<div className="page">
+				{/* <TopNav /> */}
+				Page
+			</div>
+
+			<div className="cir"></div>
+			<div className="copy">
+				<p>
+					Made with 💜 by{" "}
+					<a href="https://github.com/folafunmi-db" className="gb">
+						Folafunmi
+					</a>{" "}
+					|
+					<a href="https://twitter.com/Folafunmi6" className="tw">
+						<FiTwitter />
+					</a>
+					| Based on a design by Ghulam Rassol for Cuberto
+				</p>
+			</div>
+		</div>
+	);
 }
 
 export default App;
