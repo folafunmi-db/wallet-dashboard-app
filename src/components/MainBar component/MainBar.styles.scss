@@ -10,7 +10,7 @@ $gray: #4d4d4d;
 	height: fit-content;
 	justify-content: space-between;
 	align-items: center;
-	margin: .5rem auto;
+	margin: 0.5rem auto;
 	flex-wrap: wrap;
 
 	h3 {
@@ -20,7 +20,7 @@ $gray: #4d4d4d;
 	.filter {
 		border: 2px solid $gray;
 		padding: 0.2rem 0.4rem;
-		border-radius: 5px;
+		border-radius: 10px;
 		transition: 0.2s ease-in-out;
 		display: flex;
 		justify-content: space-between;
@@ -30,8 +30,8 @@ $gray: #4d4d4d;
 
 		&:hover {
 			border-color: $purple;
-            box-shadow: 1px 1px 10px $purple;
-            transform: translateY(-.2rem);
+			box-shadow: 1px 1px 10px $purple;
+			transform: translateY(-0.2rem);
 		}
 
 		h4 {
