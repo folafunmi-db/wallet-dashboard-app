@@ -1,0 +1,23 @@
+$purple: #bf6dee;
+$white: rgba(255, 255, 255, 0.2);
+$bg: #dad6d6;
+$black: #130b18;
+$gray: #4d4d4d;
+
+.main {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	background: $white;
+	border-radius: 20px;
+	margin: 0.5rem auto;
+	// backdrop-filter: blur(40px);
+	// background-clip: padding-box;
+	border: 3px solid transparent;
+	// z-index: 2;
+	box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+	position: relative;
+}

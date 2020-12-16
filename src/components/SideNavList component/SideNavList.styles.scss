@@ -1,0 +1,35 @@
+$purple: #bf6dee;
+$white: rgba(255, 255, 255, 0.2);
+$bg: #dad6d6;
+$black: #130b18;
+$gray: #4d4d4d;
+
+.side-nav-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: fit-content;
+	height: 2rem;
+	margin: 0.5rem 0;
+	position: relative;
+	cursor: pointer;
+	transition: 0.1s;
+
+	&:hover {
+		color: $purple;
+		:first-child {
+			color: $purple;
+		}
+	}
+
+	:first-child {
+		width: 1.7rem;
+		height: 1.7rem;
+		margin-right: 2rem;
+		color: $gray;
+	}
+
+	list-title {
+		color: $gray;
+	}
+}

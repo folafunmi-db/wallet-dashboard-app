@@ -1,0 +1,31 @@
+$purple: #bf6dee;
+$white: rgba(255, 255, 255, 0.2);
+$bg: #dad6d6;
+$black: #130b18;
+$gray: #4d4d4d;
+
+.avatar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+    margin: 0 2rem;
+    width: fit-content;
+
+	.av {
+		width: 5rem;
+		height: 5rem;
+		color: white;
+	}
+
+	.avatar-name {
+		margin: 0 auto;
+	}
+
+	.avatar-sub {
+		margin: 0 auto;
+        color: $gray;
+        margin-bottom: 1.3rem;
+        font-size: .85rem;
+	}
+}
