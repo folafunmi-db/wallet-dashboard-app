@@ -37,6 +37,7 @@ $gray: #4d4d4d;
 			padding: 0.5rem;
 			transition: border 0.2s ease-in-out;
 			border: 2px solid $white;
+			// width: 5rem;
 
 			&:focus-within {
 				border: 2px solid $purple;
@@ -47,7 +48,7 @@ $gray: #4d4d4d;
 				border: none;
 				font-family: inherit;
 				color: $gray;
-				width: 17rem;
+				width: 13rem;
 			}
 			.search-icon {
 				color: $gray;

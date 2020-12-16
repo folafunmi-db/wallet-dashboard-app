@@ -119,6 +119,10 @@ $bg: #dad6d6;
 		.section {
 			display: grid;
 			grid-template-columns: 1fr 6fr;
+
+			@media only screen and (max-width: 750px) {
+				display: block;
+			}
 		}
 	}
 

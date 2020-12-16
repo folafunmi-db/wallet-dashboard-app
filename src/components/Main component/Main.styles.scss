@@ -20,4 +20,9 @@ $gray: #4d4d4d;
 	// z-index: 2;
 	box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 	position: relative;
+
+	@media only screen and (max-width: 750px) {
+		width: 95%;
+		height: 98%;
+	}
 }
