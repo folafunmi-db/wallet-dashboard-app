@@ -3,7 +3,7 @@ import Card from "../Card component/Card.component";
 import {BiBitcoin} from 'react-icons/bi'
 import {FaEthereum} from 'react-icons/fa'
 import {SiStellar} from 'react-icons/si'
-import {IoTrendingUp, IoTrendingDown} from 'react-icons/io5'
+import {IoTrendingUp} from 'react-icons/io5'
 
 import React from "react";
 
